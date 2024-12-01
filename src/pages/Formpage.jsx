@@ -31,7 +31,7 @@ const  Formpage = () => {
       <h2 className="text-3xl font-bold text-center text-[#354018] mb-6">Add a animal</h2>
       <form onSubmit={handleSubmit} className="space-y-6">
         <div>
-          <label htmlFor="name" className="block text-lg font-semibold text-[#354018]">Pet Name</label>
+          <label htmlFor="name" className="block text-lg font-semibold text-[#354018]"> Name</label>
           <input
             type="text"
             id="name"
@@ -43,7 +43,7 @@ const  Formpage = () => {
         </div>
 
         <div>
-          <label htmlFor="gender" className="block text-lg font-semibold text-[#354018]">Pet Type</label>
+          <label htmlFor="gender" className="block text-lg font-semibold text-[#354018]"> Type</label>
           <select
             id="gender"
             name="gender"
@@ -61,7 +61,7 @@ const  Formpage = () => {
         </div>
 
         <div>
-          <label htmlFor="image" className="block text-lg font-semibold text-[#354018]">Pet Photo URL</label>
+          <label htmlFor="image" className="block text-lg font-semibold text-[#354018]"> Photo URL</label>
           <input
             type="text"
             id="image"
