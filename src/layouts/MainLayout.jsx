@@ -3,19 +3,17 @@ import Footer from "../components/Footer";
 import { Outlet } from "react-router-dom";
 
 const MainLayout = () => {
-    return (
-        <div>
-            <Navbar />
+  return (
+    <div>
+      <Navbar />
 
-            <main>
-             
-                    <Outlet />
-               
-            </main>
+      <main>
+        <Outlet />
+      </main>
 
-            <Footer />
-        </div>
-    )
+      <Footer />
+    </div>
+  );
 };
 
 export default MainLayout;
